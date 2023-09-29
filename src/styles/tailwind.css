@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   background-color: #020202;
+   font-family: 'SF Pro Display', sans-serif;
+    color : white;
+}
+/* Scroll barlari hidden pozisyonuna getirmek için */
+.overflow-y-auto::-webkit-scrollbar {
+  display: none;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/sfpro-/SFProDisplay-Regular.ttf') format('opentype');
+}
+  .gradient-box {
+    background-image: linear-gradient(to bottom, #1D1D1D, #000000);
+  }
+
+
+  .divClass {
+    width: 100%; /* Varsayılan olarak genişlik %100 */
+  }
+  
+  @media (min-width: 1280px) {
+    .divClass {
+      width: 600px; /* Ekran genişliği 1280px ve üzeri olduğunda genişlik 600px olacak */
+    }
+  }

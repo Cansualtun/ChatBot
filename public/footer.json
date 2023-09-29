@@ -1,0 +1,23 @@
+{
+    "footer": [
+    {
+      "title": "Business requires",
+      "information": "hello@colstic.com",
+      "subInformation": "+27 123 456 789"
+    },
+    {
+      "title": "London",
+      "information": "133A Rye lane London SE15 4BQ UK"
+    },
+    {
+      "title": "Open positions",
+      "information": "Junior Graphic Design",
+      "subInformation": "Videography",
+      "subInformation2": "Photography"
+    },
+    {
+      "title": "Cape town",
+      "information": "14 Upper pepper street CBD, 8001Cape Town"
+    }
+]
+}

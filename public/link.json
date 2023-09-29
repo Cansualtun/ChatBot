@@ -1,0 +1,7 @@
+{
+    "links": [
+      {"id": 1, "name": "DRIBBLE", "url" : "https://dribbble.com/tags/reload" },
+      {"id": 1, "name": "INSTAGRAM", "url" : "https://www.instagram.com/" },
+      {"id": 1, "name": "LINKEDIN", "url" : "https://www.linkedin.com/company/reloadapp/" }
+    ]
+  }

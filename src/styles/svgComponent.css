@@ -1,0 +1,39 @@
+.svg-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.circle1, .circle2 {
+  position: absolute;
+}
+
+
+
+@keyframes moveCircle1 {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(100px, 100px);
+    }
+  }
+  
+  @keyframes moveCircle2 {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(-100px, -100px);
+    }
+  }
+  
+  .circle1 {
+    animation: moveCircle1 5s infinite;
+  }
+  
+  .circle2 {
+    animation: moveCircle2 5s infinite;
+  }
