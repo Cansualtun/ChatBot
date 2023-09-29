@@ -38,7 +38,7 @@ const Chat = () => {
         {
           headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer ${import.meta.env.VITE_OPENAI_KEY}`,
+            Authorization: `Bearer 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`,
           },
         }
       );
