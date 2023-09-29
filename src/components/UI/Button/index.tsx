@@ -16,7 +16,7 @@ const Button: FC<ButtonProps> = ({
   let backgroundColor = "bg-primary-blue";
   let textColor = "text-primary-black";
   let width = "";
-  let border = "";
+  let border = "border-solid border border-white";
 
   switch (variant) {
     case "primary":
@@ -43,7 +43,7 @@ const Button: FC<ButtonProps> = ({
 
   return (
     <button
-      className={`px-4 py-2 w-64 h-14 text- rounded-full ${backgroundColor} ${textColor} ${border} ${className}`}
+      className={`px-4 py-2 w-64 h-14 text- rounded-full ${backgroundColor} ${width} ${textColor} ${border} ${className}`}
       onClick={onClick}
     >
       {children}
