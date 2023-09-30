@@ -16,8 +16,9 @@ ChatBot is an artificial intelligence-based chatbot capable of interacting with 
   - React-icons 
 
 ## Installation:
-```
+
 - git clone https://github.com/Cansualtun/ChatBot.git
+- Go to openai site and create an account [Open AI](https://openai.com/). After creating an account, create an API key.Paste the API key you created into the key section of the .env file.
 - npm install && npm run dev
 ```
----
+
