@@ -2,7 +2,7 @@
 
 ChatBot is an artificial intelligence-based chatbot capable of interacting with users.
 
-<br> You can reach project with [Chatbot](https://chatbotcase.netlify.app/) </br>
+<br> You can reach project with [Chatbot](https://chatbotcase12.netlify.app/) </br>
 
 ---
 
